@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DKT | Find My Method</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132760118-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-132760118-1');
+
+        </script>-->
+</head>
+<body>
+    <header class="orange-both-texture-bkg white-txt">
+        <nav class="navbar justify-content-between">
+            <a class="logo col-4 col-md-2" href="https://findmymethod.org/es/">
+              <img src="assets/logo/logo_final_w_white_mini (1).png" width="30" height="30" alt="" loading="lazy">
+            </a>
+            <div class="col-5" id="mobile_menu">
+                <a href="#" class="menu-icon">
+                    <img src="assets/icons/PNG/menu.png" alt="">
+                </a>
+            </div>
+            <div id="mm-display">
+                <ul class="mobile-display col-8 ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://findmymethod.org/es/encontrar-mi-metodo/">Contraceptive Finder </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://findmymethod.org/es/compara-los-metodos/">Comparar Methodos</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class=" col-md-9" id="desktop_menu">
+                <ul class="">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://findmymethod.org/es/encontrar-mi-metodo/">Contraceptive Finder </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://findmymethod.org/es/compara-los-metodos/">Comparar Methodos</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+        <div id="hero" class="contain">
+            <h1 class="title">Métodos anticonceptivos <br> en México</h1>
+        </div>
+        <svg id="curve_1" data-name="Layer_1" viewBox="0 0 1416.99 174.01">
+            <path class="cls-1" d="M0,280.8S283.66,59,608.94,163.56s437.93,150.57,808,10.34V309.54H0V280.8Z" transform="translate(0 -135.53)"/>
+        </svg>
+        <svg id="curve_2" data-name="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1592 251">
+            <path class="cls-1" d="M0,126s67.6,38.31,120.11,31.31c54.16-7.23,101.26-26.5,162.49-53C378.87,62.63,480-24.9,598.18-18.55c20.66,1.11,69.35,6,122.46,14.45C772,4.09,803.89,11.87,840.75,20c99.54,21.93,168.77,37.18,252,43.35,80.61,6,129.28,9.59,193.12-7.22,34.79-9.17,98.71-26,160.14-65a331,331,0,0,1,54.16-28.9c27-11.25,70.27-29.25,91.85-19.27V191H0Z" transform="translate(0 60)"/>
+        </svg>
+    </header>
+    <main>
+        <div id="intro">
+            <div class="contain">
+                <p>
+                    México dispone de una gran variedad de métodos anticonceptivos. Aquí, te explicamos sobre las alternativas con mayor eficacia para que tomes una decisión informada.
+                </p>
+                <p>
+                    Si tienes dudas, contáctanos en redes sociales o a través de nuestro sitio web, además, puedes unirte a nuestra comunidad que no teme hablar de sexualidad en  
+                </p>
+                <button class="blue-btn"><a href="http://forum.findmymethod.org/mexico">Find my method Forum</a></button> 
+                <div class="intro-methods row">
+                    <div class="method-burble col-md-3">
+                         <img src="assets/photos/condom.png" alt="Condones">
+                         <a href="#condoms"><b> Condones</b> (femenino y masculino)</a>
+                     </div>
+                     <div class="method-burble col-md-3">
+                         <img src="assets/photos/IUD.png" alt="DIU">
+                         <a href="#IUD"><b> DIU </b>de cobre, hormonal o de plata</a>
+                     </div>
+                     <div class="method-burble col-md-3">
+                         <img src="assets/photos/shot.png" alt="Inyectable">
+                         <a href="#shot"><b>Inyectable</b></a>
+                     </div>
+                     <div class="method-burble col-md-3">
+                         <img src="assets/photos/ECP.png" alt="Pastilla de emergencia">
+                         <a href="#EPC"><b> Pastilla anticonceptiva de emergencia</b>
+                         </a>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="methods-dkt">
+            <div id="condoms">
+                <div class="method description white-txt navy-texture-bkg">
+                    <div class="contain methods">
+                        <h2 class="method-main-title">Condones</h2> 
+                        <p>
+                            El condón es uno de los métodos con mayor disponibilidad, ya que pueden ser encontrados no solo en farmacias sino en tiendas de conveniencia y supermercados. Además de ser el único método anticonceptivo de barrera que ofrece protección de infecciones de Transmisión Sexual (ETS), es uno de los pocos anticonceptivos diseñados para ser usados por hombres.
+                        </p>
+                        <p>
+                            Existen dos tipos:
+                        </p>
+                        <div class="female-condom">
+                            <h2 class="method-orange-title">Condón femenino</h2> 
+                            <p>
+                                Está diseñado para la anatomía de la mujer. Es un método anticonceptivo de barrera, que evita el contacto del pene y el esperma con el cuello uterino y la vagina.
+                            </p>
+                            <div class="how-to-use">
+                                <h3 class="method-white-title" >¿Cómo se usa el condón femenino?</h3>
+                                <p>
+                                    Se puede colocar ocho horas antes de la relación sexual, lo que evita interrupciones en el momento previo. 	
+                                </p>
+                                <div class="row">
+                                    <ol class="condom_use-list">
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/01-Condon-Femenino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">    
+                                                <p>
+                                                1. Abra el empaque solamente al momento de uso, y de forma cuidadosa incluyendo la extracción del envase, para evitar dañar el condón con las uñas, joyas, dientes, etc.
+                                                No utilice ningún instrumento punzocortante.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/02-Condon-Femenino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7"> 
+                                                <p>
+                                                   2. Apriete el anillo interno con el pulgar y los dedos medios (el anillo debe tomar una forma de 8) inserte el anillo interior en la entrada de la vagina dejando el condon abierto afuera de la misma.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/03-Condon-Femenino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>
+                                                    3. Deslice suavemente el anillo interno en la vagina y sienta que sube. Coloque el dedo índice dentro del condón y empuje el anillo interno lo más que pueda sin llegar a lastimarse.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/04-Condon-Femenino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>
+                                                    4. Asegurar que el condón se insertó dentro del canal vaginal antes de que se produzca cualquier contacto entre el pene y el cuerpo de de la pareja. El anillo exterior debe permanecer fuera de la vagina, cubriendo los labios mayores y parte de la vulva.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/05-Condon-Femenino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>
+                                                    5. Retirar el pene inmediatamente después de la eyaculación, mientras el condón se mantiene firmemente sujeto dentro del conducto vaginal. Para retirar el condón gire el anillo externo suavemente y tire del condón manteniendo el semen dentro, Envuelva el condón en papel sanitario y tire junto con su envoltura.
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="male-condom contain">
+                            <h2 class="method-orange-title">Condón masculino</h2> 
+                            <p>El condón masculino es una cubierta que se adapta a la forma del pene erecto. Utilizado adecuadamente su tasa de efectividad es entre el 97 y 99%.</p>
+                            <p>Son fabricados generalmente de látex y lubricados con aceite de silicón.</p>
+                            <div class="how-to-use">
+                                <h3 class="method-white-title" >¿Cómo se usa el condón masculino?</h3>
+                                <div class="row">
+                                    <ol class="condom_use-list">
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/01-Condon-Masculino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>
+                                                    1. Revisa la fecha de vencimiento antes de usarlo y ten cuidado de no rasgar el condón cuando lo estás sacando de su envoltorio.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/02-Condon-Masculino.png" alt="">
+                                            </div>    
+                                            <div class="col-md-7">
+                                                <p>
+                                                    2. Puedes poner una o dos gotas de lubricante sin aceite dentro del preservativo, facilitando su inserción
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/03-Condon-Masculino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>
+                                                    3. Deja media pulgada de espacio adicional en la punta para recoger el semen, luego saca el aire de la punta del condón, pellizcándolo con la mano.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/04-Condon-Masculino.png" alt="">
+                                            </div>    
+                                            <div class="col-md-7">
+                                                <p>
+                                                    4. Desenrolla el condón a lo largo del pene y llega tan lejos como sea posible.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="row col-12">
+                                            <div class="col-md-5">
+                                                <img src="assets/photos/05-Condon-Masculino.png" alt="">
+                                            </div>
+                                            <div class="col-md-7">    
+                                                <p>
+                                                    5. Saca suavemente las burbujas de aire. Estas pueden hacer que el preservativo se parta.
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="benefits" class="container">
+                    <div class="tittle-cont col-12">
+                        <h2 class="method-main-title-blk">Beneficios</h2>
+                    </div>
+                    <ul class="benefits-list">
+                        <li>
+                            Eficacia del 97-99%
+                        </li>
+                        <li>
+                            Disponible en farmacias, supermercados y tiendas de conveniencia
+                        </li>
+                        <li>
+                            Sin necesidad de receta médica
+                        </li>
+                        <li>
+                            Precio aproximado de $10.00 MXN por condón masculino y $150.00 MXN por un paquete de dos condones femeninos
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div id="faqs" class="orange-texture-bkg white-txt">
+                    <svg id="womb" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366.28 233.99"><path class="cls-1" d="M682.86,233C940.31,233,1177.33,145.67,1366-1H-.28C188.39,145.67,425.41,233,682.86,233Z" transform="translate(0.28 0.96)"/></svg>
+                    <div class="contain">
+                        <h2 class="title">Preguntas frecuentes </h2>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿El condón de sabor se puede utilizar solo para sexo oral?
+                            </h3>
+                            <p class="faq-a">
+                                Sí, el condón con sabor y aroma puede ser utilizado para sexo anal, vaginal y oral, brindándote la misma efectividad del 99%, considera que dicha efectividad depende del uso correcto.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Cómo sé si un condón se rompió?
+                            </h3>
+                            <p class="faq-a">
+                                En la mayoría de los casos se puede saber si el condón se rompió o no con un simple vistazo, ya que las roturas pueden ser evidentes. Cuando un condón se rompe, por lo general no es una rotura pequeña, al ser de hule látex, este puede romperse por completo debido a la fricción ocasionada. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Cuántos años tiene de caducidad un condón?
+                            </h3>
+                            <p class="faq-a">
+                                Un condón tiene fecha de caducidad de 5 años, ejemplo, si el condón indica que caduca en 2025, quiere decir que ese condón se fabricó en el año 2020.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Cuándo puedo colocar el condón femenino? 
+                            </h3>
+                            <p class="faq-a">
+                                Puede ser previo al momento del coito o hasta 8 horas antes. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Puedo utilizar condón femenino y condón masculino al mismo tiempo?
+                            </h3>
+                            <p class="faq-a">
+                                No porque harían fricción y se puede romper uno de los dos o ambos, dejando sin protección. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Puedo usar el condón femenino durante la menstruación?
+                            </h3>
+                            <p class="faq-a">
+                                Sí, pero se tiene que colocar justo antes del coito.  
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Se puede perder el condón femenino dentro de mi cuerpo?
+                            </h3>
+                            <p class="faq-a">
+                                No
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Puedo usar el condón femenino durante el embarazo? 
+                            </h3>
+                            <p class="faq-a">
+                                Sí
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Es reutilizable?
+                            </h3>
+                            <p class="faq-a">
+                                No, ambos tipos de condón se usan una sola vez.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="more" class="contain col-12 col-md-8">
+                    <p>
+                        ¿Tienes más preguntas? Comparte tus dudas con nuestra comunidad aquí:
+                    </p>
+                    <button class="blue-btn"><a href="http://forum.findmymethod.org/mexico">Find my method Forum</a></button> 
+                </div>
+            </div>
+            <div id="IUD">
+                <div class="method description white-txt navy-texture-bkg">
+                    <div class="contain methods">
+                        <h2 class="method-main-title">DIU</h2> 
+                        <p>
+                            El dispositivo intrauterino es un método anticonceptivo de larga duración que se inserta dentro del útero de la mujer e inmediatamente protege de embarazos. El DIU se encuentra en múltiples presentaciones.
+                        </p>
+                        <div class="cooper-IUD">
+                            <h2 class="method-orange-title"> DIU de cobre </h2> 
+                            <p>
+                                Los DIUs de cobre son dispositivos flexibles en forma de T que se colocan dentro del útero para evitar un embarazo. Son libres de hormonas y actúan por mecanismos locales que modifican el medio uterino, haciéndolo desfavorable para la fecundación. El DIU de cobre ofrece de 3 a 12 años de protección del embarazo, dependiendo del tipo de dispositivo que utilices. Si quieres quedar embarazada, te lo puedes quitar.
+                            </p>
+                        </div>
+                        <div class="hormonal-IUD">
+                            <h2 class="method-orange-title"> DIU hormonal </h2> 
+                            <p>
+                                El dispositivo intrauterino liberador de levonorgestrel o dispositivo intrauterino hormonal (DIUH) es un método a base de hormonas. Se trata de una pequeña pieza de plástico en forma de T que se inserta en el útero. Una vez ahí, hace que su revestimiento se adelgace, y que el moco cervical se haga más espeso. Esto evita que el esperma fecunde al óvulo. Ofrece 2, 4 o 5 años de protección (dependiendo del tipo de DIUH que se use). Si deseas quedar embarazada, puedes quitártelo.
+                            </p>
+                        </div>
+                        <div class="silver-IUD">
+                            <h2 class="method-orange-title"> DIU de nucleo de plata </h2> 
+                            <p>
+                                Dispositivo de cobre con un núcleo de plata. De los DIUs es el más reciente. Por sus propiedades reduce infecciones vaginales causadas por bacterias. Tiene una anatomía flexible y ergonómica que facilita la colocación. Hay una versión mini que pueden utilizar las mujeres que no han tenido hijos o tienen útero pequeño. 
+                            </p>
+                        </div>
+                        <div class="how-to-use">
+                            <h3 class="method-white-title" >¿Cómo se usa?</h3>
+                            <div class="row">
+                                <ol class="use-list">
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/01-DIU.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>
+                                                El primer paso es hablar con tu médico, quien hará un examen para asegurarse de que el DIU sea adecuado para tu cuerpo.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/02-DIU.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>
+                                                Puedes colocarte el DIU en cualquier momento del mes. A algunos médicos les acomoda durante la menstruación, pero puede hacerse en cualquier otro momento, siempre y cuando no exista un embarazo.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/03-DIU.png" alt="">
+                                        </div>
+                                        <div class="col-md-8"> 
+                                            <p>
+                                                Es común sentir algunos cólicos durante la colocación, pero desaparecerán con reposo o analgésicos. Algunas mujeres también pueden sentirse mareadas.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="benefits" class="container">
+                    <div class="tittle-cont col-12">
+                        <h2 class="method-main-title-blk">Beneficios del uso del DIU de cobre, hormonal o de núcleo de plata</h2>
+                    </div>
+                    <ul class="benefits-list">
+                        <li>
+                            Eficacia del 99%
+                        </li>
+                        <li>
+                            Protección a largo plazo sin mucho esfuerzo
+                        </li>
+                        <li>
+                            Seguro para fumadoras y quienes sufren de hipertensión y diabetes
+                        </li>
+                        <li>
+                            Precio aproximado a partir de $500.00 MXN
+                        </li>
+                    </ul>                
+                </div>
+                <div id="faqs" class="orange-texture-bkg white-txt">
+                    <svg id="womb" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366.28 233.99"><path class="cls-1" d="M682.86,233C940.31,233,1177.33,145.67,1366-1H-.28C188.39,145.67,425.41,233,682.86,233Z" transform="translate(0.28 0.96)"/></svg>
+                    <div class="contain">
+                        <h2 class="title">Preguntas frecuentes </h2>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Los DIUs harán mi periodo abundante?
+                            </h3>
+                            <p class="faq-a">
+                                Los métodos anticonceptivos tienen un periodo de adaptación y cada mujer se adapta en diferente tiempo y con efectos secundarios que suelen pasar después de un tiempo
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Cuánto tiempo dura el efecto anticonceptivo?
+                            </h3>
+                            <p class="faq-a">
+                                En promedio es de 5 años pero es recomendable una visita anual para revisión del dispositivo. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿El DIU le hará daño a mi pareja?
+                            </h3>
+                            <p class="faq-a">
+                                El DIU no debería hacerle daño a tu pareja. A lo mejor oíste que las cuerdas pueden generar molestias a los hombres cuando se tienen relaciones, pero la mayoría de ellos no pueden sentirlas. Sin embargo, si les molestan, la persona prestadora de servicios de salud debería recortarlas. Además, normalmente se hacen más suaves con el tiempo.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Y si quiero quedarme embarazada?
+                            </h3>
+                            <p class="faq-a">
+                                Si estás lista para quedarte embarazada, pide a la persona prestadora de tus servicios de salud que te quite el DIU. Tu cuerpo debería volver a la normalidad inmediatamente. Puedes empezar a buscar un embarazo enseguida.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿La inserción del DIU dolerá?
+                            </h3>
+                            <p class="faq-a">
+                                El dolor generado por la inserción del DIU varía según la persona. Desafortunadamente, no hay una droga maravillosa que lo disminuya. <br>
+                                Puedes tomar ibuprofeno antes del procedimiento y asegurarte que el dispositivo se inserte cuando tu cérvix está abierto, por ejemplo, cuando estás con tu período u ovulando. Incluso si hay algún dolor, puede valer la pena a cambio de tener relaciones sexuales libres de embarazos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="more" class="contain col-12 col-md-8">
+                    <p>
+                        ¿Tienes más preguntas? Comparte tus dudas con nuestra comunidad aquí:
+                    </p>
+                    <button class="blue-btn"><a href="http://forum.findmymethod.org/mexico">Find my method Forum</a></button> 
+                </div>
+            </div>
+            <div id="shot">
+                <div class="method description white-txt navy-texture-bkg">
+                    <div class="contain methods">
+                        <h2 class="method-main-title">Inyectable</h2> 
+                        <p>
+                            Los inyectables evitan que los ovarios liberen óvulos. También espesan el moco cervical para ayudar a impedir que el esperma llegue a los óvulos. Hay diferentes tipos:
+                        </p>
+                        <ul>
+                            <li>
+                                Inyectable mensual: ¡Te mantiene protegida por un mes! Contiene una carga hormonal combinada, Noretisterona 50 mg y Estradiol 5 mg.
+                            </li>
+                            <li>
+                                EN-NET o inyectable bimensual: contiene progestágeno. ¡Te mantiene protegida por dos meses! Es una muy buena opción para las mujeres que no pueden tomar estrógeno.
+                            </li>
+                            <li>
+                                AMPD o inyectable trimestral: contiene progestágeno. ¡Te mantiene protegida por tres meses! Una muy buena opción para quienes no pueden tomar estrógeno.
+                            </li>
+                        </ul>
+                        <div class="how-to-use">
+                            <h3 class="method-white-title">¿Cómo se usa el inyectable?</h3>
+                            <p>
+                                Debe ser administrada por vía intramuscular profunda, de preferencia en la región glútea, inmediatamente después de su preparación.
+                            </p>
+                            <div class="row">
+                                <ol class="use-list">
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/01-Inyectable.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">  
+                                            <p>
+                                                El primer paso es hablar con tu médico. Ella o él, harán un examen para asegurarse de que este método sea adecuado para tu cuerpo.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-md-3">    
+                                            <img src="assets/photos/02-Inyectable.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>
+                                                Una vez que el especialista y tú decidan usar este método. La primera inyección anticonceptiva debe coincidir con el inicio del primer día de sangrado del periodo menstrual del mes. Después ya sólo tienes que estar al pendiente de las próximas colocaciones, según la presentación que uses sin importar si menstruas o no. Las inyecciones posteriores deben coincidir con la fecha de la primera inyección. Al tratarse de un método de corto plazo, tú decides el tiempo de duración.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="benefits" class="container">
+                    <div class="tittle-cont col-12">
+                        <h2 class="method-main-title-blk">Beneficios del inyectable</h2>
+                    </div>
+                    <ul class="benefits-list">
+                        <li>
+                            Eficacia del 97 al 99%                            
+                        </li>
+                        <li>
+                            Fácil de usar
+                        </li>
+                        <li>
+                            Privado –nadie sabrá que lo usas, a menos que lo digas
+                        </li>
+                        <li>
+                            Precio aproximado a partir de $70.00 MXN
+                        </li>
+                    </ul>                
+                </div>
+                <div id="faqs" class="orange-texture-bkg white-txt">
+                    <svg id="womb" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366.28 233.99"><path class="cls-1" d="M682.86,233C940.31,233,1177.33,145.67,1366-1H-.28C188.39,145.67,425.41,233,682.86,233Z" transform="translate(0.28 0.96)"/></svg>
+                    <div class="contain">
+                        <h2 class="title">Preguntas frecuentes </h2>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿El inyectable engorda?
+                            </h3>
+                            <p class="faq-a">
+                                Hasta el momento no existe ningún estudio que compruebe si los anticonceptivos hormonales engordan.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Y si esto impacta mi deseo sexual?
+                            </h3>
+                            <p class="faq-a">
+                                Aunque no es una queja común de las usuarias de inyectables, es un efecto secundario potencial. Así que el primer paso es verificar qué otras cosas en tu vida pueden estar causando un cambio en tu comportamiento sexual. ¿Estás estresada? ¿Estás teniendo dificultades en tu relación? Puedes cambiar algunas de estas cosas para aumentar tu deseo de tener sexo: trata de ejercitarte más, prueba cosas nuevas en la cama, trata de sostener una conversación abierta con tu pareja sobre tus sentimientos y necesidades. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Y si quiero quedarme embarazada pronto?
+                            </h3>
+                            <p class="faq-a">
+                                No puedes revertir el efecto de los inyectables. Así que, si ya te los pusiste, debes esperar 1, 2 o 3 meses (dependiendo del tipo de inyectable) para empezar a intentarlo. Sé paciente –algunas veces la fertilidad puede volver completamente hasta 10 meses después de la última inyección.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Por qué me dan dolores de cabeza?
+                            </h3>
+                            <p class="faq-a">
+                                Los dolores de cabeza son un efecto secundario potencial de los inyectables. Si tienes fuertes dolores de cabeza, piensa primero en otras razones que los puedan estar generando. Trata de minimizar el estrés, toma más agua para prevenir la deshidratación y asegúrate de que estás durmiendo lo suficiente. Si eso no ayuda, habla con una persona prestadora de servicios de salud al respecto.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Por qué me siento voluble?
+                            </h3>
+                            <p class="faq-a">
+                                Los cambios de humor son un potencial efecto secundario de los inyectables. Pero antes de considerar cambiar de método, evalúa qué otra cosa en tu vida podría estar causando los cambios de humor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="more" class="contain col-12 col-md-8">
+                    <p>
+                        ¿Tienes más preguntas? Comparte tus dudas con nuestra comunidad aquí:
+                    </p>
+                    <button class="blue-btn"><a href="http://forum.findmymethod.org/mexico">Find my method Forum</a></button> 
+                </div>
+            </div>
+            <div id="EPC">
+                <div class="method description white-txt navy-texture-bkg">
+                    <div class="contain methods">
+                        <h2 class="method-main-title">Pastilla anticonceptiva de emergencia (PAE)</h2> 
+                        <p>
+                            La pastilla de anticoncepción de emergencia (PAE) puede evitar un embarazo antes de que inicie. Esto quiere decir que la PAE no es lo mismo que las píldoras abortivas. Pueden estar disponibles en las vitrinas y se venden con o sin receta médica. Son similares a otras píldoras anticonceptivas, pero con dosis mucho más altas. Pueden funcionar hasta 5 días después de tener relaciones sexuales no protegidas, pero su efectividad disminuye cada día. Si quieres usar este método, deberías usarlo tan pronto como sea posible, después del sexo sin protección.
+                        </p>
+                        <div class="how-to-use">
+                            <h3 class="method-white-title">¿Cómo se usa la pastilla anticonceptiva de emergencia?</h3>
+                            <div class="row">
+                                <ol class="use-list">
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/01-PAE.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>
+                                                La pastilla debe tomarse después de la relación sexual sin protección, falla del método anticonceptivo o violencia sexual y antes de 72 horas. Entre más pronto sea la toma es más efectivo el método.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/photos/02-PAE.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">    
+                                            <p>
+                                            Si la presentación es de dosis única, no requiere otra toma adicional.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-md-3">  
+                                            <img src="assets/photos/03-PAE.png" alt="">
+                                        </div>
+                                        <div class="col-md-8">  
+                                            <p>
+                                                Si la presentación es de dosis única, no requiere otra toma adicional.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="benefits" class="container">
+                    <div class="tittle-cont col-12">
+                        <h2 class="method-main-title-blk">Beneficios de la pastilla anticonceptiva de emergencia</h2>
+                    </div>
+                    <ul class="benefits-list">
+                        <li>
+                            Eficacia del 99%
+                        </li>
+                        <li>
+                            Disponible en farmacias y autoservicios a nivel nacional
+                        </li>
+                        <li>
+                            Sin necesidad de receta médica
+                        </li>
+                        <li>
+                            Precio aproximado a partir de $80.00 MXN               
+                        </li>
+                    </ul>                
+                </div>
+                <div id="faqs" class="orange-texture-bkg white-txt">
+                    <svg id="womb" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366.28 233.99"><path class="cls-1" d="M682.86,233C940.31,233,1177.33,145.67,1366-1H-.28C188.39,145.67,425.41,233,682.86,233Z" transform="translate(0.28 0.96)"/></svg>
+                    <div class="contain">
+                        <h2 class="title">Preguntas frecuentes </h2>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Hay alguna restricción de edad para adquirir el anticonceptivo?
+                            </h3>
+                            <p class="faq-a">
+                                No, siempre y cuando sea recetado por una persona profesional de la salud. 
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿La anticoncepción de emergencia funciona igual que las pastillas abortivas?
+                            </h3>
+                            <p class="faq-a">
+                                Si ya estás embarazada (incluso si todavía no lo sabes), la AE no funcionará. La AE solo previene el embarazo; no puede interrumpir uno que ya ocurrió. Y si accidentalmente tomas la AE antes de saber que estás embarazada, no le hará ningún daño al embarazo.
+                            </p>
+                        </div>
+                        <div class="faq">
+                            <h3 class="faq-q">
+                                ¿Y si la PAE me provoca náuseas?
+                            </h3>
+                            <p class="faq-a">
+                                Para prevenir las náuseas y el vómito, puedes tomar medicamentos contra las náuseas que se venden sin receta médica, una hora antes de tomar la primera dosis de la PAE. Ten en cuenta que te pueden causar somnolencia. <br>
+                                Si terminas vomitando dentro de la siguiente hora a la que tomaste tu dosis de PAE, repite la dosis por si acaso tu cuerpo no absorbió las hormonas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="more" class="contain col-12 col-md-8">
+                    <p>
+                        ¿Tienes más preguntas? Comparte tus dudas con nuestra comunidad aquí:
+                    </p>
+                    <button class="blue-btn"><a href="http://forum.findmymethod.org/mexico">Find my method Forum</a></button> 
+                </div>
+            </div>   
+        </div>
+        <div id="contact" class="contain">
+            <h2 class="title">
+                ¿A quién puedo contactar para tener más información?
+            </h2>
+            <div class="dkt-social_media">
+                <div class="dkt col-12">
+                    <h3>
+                        DKT México
+                    </h3>
+                    <ul class="social_media-list">
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="www.dkt.com.mx" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/language.svg" alt="DKT website" class="globe">
+                                </a>
+                            </div>
+                            <a href="www.dkt.com.mx" target="_blank">www.dkt.com.mx</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="https://www.facebook.com/DKTMexico" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/facebook.png" alt="Facebook DKT">
+                                </a>
+                            </div>
+                            <a href="https://www.facebook.com/DKTMexico" target="_blank">DKT México</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="https://www.instagram.com/dktmexico/" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/instagram.png" alt="Instagram DKT">
+                                </a>
+                            </div>
+                            <a href="https://www.instagram.com/dktmexico/" target="_blank">DKT México</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="tel:5560668942" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/Whatsapp.png" alt="Whatsapp DKT">
+                                </a>
+                            </div>
+                            <a href="tel:5560668942" target="_blank">5560668942</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="prudence col-12">
+                    <h3>
+                        Prudence
+                    </h3> 
+                    <ul class="social_media-list">
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="https://www.prudence.com.mx" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/language.svg" alt="DKT website" class="globe">
+                                </a>
+                            </div>
+                            <a href="https://www.prudence.com.mx" target="_blank">https://www.prudence.com.mx</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="https://www.facebook.com/CondonesPrudence/" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/facebook.png" alt="Facebook Prudence">
+                                </a>
+                            </div>
+                            <a href="https://www.facebook.com/CondonesPrudence/" target="_blank">Condones Prudence</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="https://www.instagram.com/condonesprudence/" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/instagram.png" alt="Instagram Prudence">
+                                </a>
+                            </div>
+                            <a href="https://www.instagram.com/condonesprudence/" target="_blank">Condones Prudence</a>
+                        </li>
+                        <li>
+                            <div class="contact-circle circle navy-bkg">
+                                <a href="tel:5560668942" class="icon-socialmedia" target="_blank">
+                                    <img src="assets/icons/Whatsapp.png" alt="Whatsapp Prudence">
+                                </a>
+                            </div>
+                            <a href="tel:5560668942" target="_blank">55 6066 8942</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s2c">
+                <p><b>¿Tienes un embarazo no deseado?</b> Visita <a href="https://safe2choose.org/es/">safe2choose.org/es</a> para hablar con una consejera entrenada sobre las opciones disponibles para abortar en tu país.</p>
+                <p> También puedes ponerte en contacto vía correo electrónico en <a href="mailto:info@safe2choose.org"> info@safe2choose.org</a> o  vía chat en <a href="https://safe2choose.org/es/">safe2choose.org/es</a>.</p>
+                <p><b>¡Contacta a una consultora hoy mismo!
+                </b></p>
+            </div>
+        </div>      
+    </main>
+    <footer class=" row orange-texture-bkg white-txt">
+        <p class="col-md-6">Para mayor información sobre anticonceptivos visita: <br> <a href="https://findmymethod.org/es" target="_blank">findmymethod.org</a></p>
+        <div class="social-media col-md-6">
+            <a href="https://www.facebook.com/findmymethod/" class="icon-socialmedia facebook" target="_blank">
+                <img src="assets/icons/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/findmymethod" class="icon-socialmedia twitter" target="_blank">
+                <img src="assets/icons/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com/findmymethod" class="icon-socialmedia instagram" target="_blank">
+                <img src="assets/icons/instagram.png" alt="Instagram">
+            </a>
+        </div>    
+    </div>
+    </footer>
+<script>
+    $( ".menu-icon" ).click(function() {
+  $( "#mm-display" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+</script>
+</body>
+</html>
