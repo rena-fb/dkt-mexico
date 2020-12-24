@@ -53,6 +53,25 @@
                     <a class="nav-link" href="https://findmymethod.org/es/compara-los-metodos/">Comparar Methodos</a>
                   </li>
                 </ul>
+            </div>
+            <div class="float-nav">
+                <a href="#" class="menu-btn">
+                  <ul>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                  </ul>
+                  <div class="menu-txt">menu</div>
+                </a>
+              </div>
+              
+              <div class="main-nav">
+                <ul>
+                  <li><a href="#condoms">Condones</a></li>
+                  <li><a href="#IUD">DIU</a></li>
+                  <li><a href="#shot">Inyectable</a></li>
+                  <li><a href="#EPC">PAE</a></li>
+                </ul>
               </div>
         </nav>
         <div id="hero" class="contain">
@@ -819,6 +838,16 @@
     // Animation complete.
   });
 });
+$('.float-nav').click(function() {
+  $('.main-nav, .menu-btn').toggleClass('active');
+});
+/*window.addEventListener('scroll', function() {
+    if(window.scrollY > 500) {
+        $('.float-nav').fadeIn("fast"); // fade in
+    } else { // else
+        $('.float-nav').fadeOut("fast"); // fade out
+    }
+});*/
 </script>
 </body>
 </html>
